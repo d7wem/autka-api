@@ -1,6 +1,6 @@
 // config.js
 const config = {
-  mongoUri: process.env.MONGO_URI        // читаємо з env
+  dbUrl: process.env.MONGO_URI          // читаємо URI з Variables
 };
 
 module.exports = config;
