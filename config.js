@@ -1,6 +1,4 @@
-// config.js
-const config = {
-  dbUrl: process.env.MONGO_URI          // читаємо URI з Variables
+// config.js  (лежить у корені репозиторію)
+module.exports = {
+  dbUrl: process.env.MONGO_URI   // ← ЄДИНЕ поле, яке потрібне db.js
 };
-
-module.exports = config;
