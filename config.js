@@ -1,6 +1,6 @@
-const config = {};
-
-// example config.js file
-config.dbUrl = 'mongodb://USER:PASSWD@HOST_IP_ADDR:27017/DB_NAME';
+// config.js
+const config = {
+  mongoUri: process.env.MONGO_URI        // читаємо з env
+};
 
 module.exports = config;
